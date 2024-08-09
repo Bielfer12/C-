@@ -15,7 +15,7 @@ Bem-vindo ao repositório de Programação Aplicada! Este repositório contém m
 
 ## Descrição
 
-Este repositório tem como objetivo fornecer uma coleção de exemplos e exercícios práticos para ajudar os alunos a entender e aplicar conceitos fundamentais de C++. A matéria de Programação Aplicada aborda temas como:
+Este repositório tem como objetivo fornecer uma coleção de exemplos e exercícios práticos para mostrar sobre o que aprendo e assim aplicando os conceitos fundamentais de C++. A matéria de Programação Aplicada aborda temas como (que irei aprender):
 
 - Tipos de dados e variáveis
 - Estruturas de controle (if, switch, loops)
