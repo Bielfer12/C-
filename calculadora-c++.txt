@@ -1,0 +1,51 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main () {
+    double num1, num2, soma,mult,div,sub;
+    int escolha;
+
+    cout << "1 - Soma" << endl;
+    cout << "2 - Subtracao" << endl;
+    cout << "3 - Multiplicacao" << endl;
+    cout << "4 - Divisao" << endl;
+    cout << "Escolha: " << endl;
+    cin >> escolha;
+
+    switch(escolha) {
+        case 1:
+            cout << "Digite o primeiro numero: " << endl;
+            cin >> num1;
+            cout << "Digite o SEGUNDO numero: " << endl;
+            cin >> num2;
+            soma = num1 + num2;
+            cout << "Resultado: " << soma;
+            break;
+        case 2:
+            cout << "Digite o primeiro numero: " << endl;
+            cin >> num1;
+            cout << "Digite o SEGUNDO numero: " << endl;
+            cin >> num2;
+            sub = num1 - num2;
+            cout << "Resultado: " << sub;
+            break;
+        case 3:
+            cout << "Digite o primeiro numero: " << endl;
+            cin >> num1;
+            cout << "Digite o SEGUNDO numero: " << endl;
+            cin >> num2;
+            mult = num1 * num2;
+            cout << "Resultado: " << mult;
+            break;
+        case 4:
+            cout << "Digite o primeiro numero: " << endl;
+            cin >> num1;
+            cout << "Digite o SEGUNDO numero: " << endl;
+            cin >> num2;
+            div = num1 / num2;
+            cout << "Resultado: " << div;
+            break;
+    }
+}
