@@ -1,16 +1,19 @@
 #include <iostream>
 #include <string>
+#include <valarray>
 
 using namespace std;
 
 int main () {
     double num1, num2, soma,mult,div,sub;
-    int escolha;
+    int escolha,bhasi,bhasii,a,b,c;
 
     cout << "1 - Soma" << endl;
     cout << "2 - Subtracao" << endl;
     cout << "3 - Multiplicacao" << endl;
     cout << "4 - Divisao" << endl;
+    cout << "5 - Bhascara" << endl;
+    cout << "5 - Bhascara" << endl;
     cout << "Escolha: " << endl;
     cin >> escolha;
 
@@ -47,5 +50,17 @@ int main () {
             div = num1 / num2;
             cout << "Resultado: " << div;
             break;
+        case 5:
+            cout << "Digite o A: " << endl;
+            cin >> a;
+            cout << "Digite o B: " << endl;
+            cin >> b;
+            cout << "Digite o C: " << endl;
+            cin >> c;
+            bhasi = (-b + sqrt(b*b - 4*a*c))/(2*a);
+            bhasii = (-b - sqrt(b*b - 4*a*c))/(2*a);
+            cout << "Resultado: " << bhasi << " e " << bhasii;
+            break;
+
     }
 }
