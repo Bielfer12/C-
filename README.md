@@ -7,11 +7,6 @@ Bem-vindo ao repositório de Programação Aplicada! Este repositório contém m
 - [Descrição](#descrição)
 - [Estrutura do Repositório](#estrutura-do-repositório)
 - [Pré-requisitos](#pré-requisitos)
-- [Instalação](#instalação)
-- [Uso](#uso)
-- [Contribuição](#contribuição)
-- [Licença](#licença)
-- [Referências](#referências)
 
 ## Descrição
 
